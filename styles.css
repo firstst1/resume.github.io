@@ -193,7 +193,7 @@ body{
         font-size: 4rem;
         top: 50%;
         transform: translateY(-50%);
-        color: rgb(88, 86, 86);
+        color: rgb(255, 0, 0);
         cursor: pointer;
         border-radius: .25rem;
         padding: 0 .5rem;
@@ -261,20 +261,12 @@ body{
             height: 15%;
             /* border: 1px solid red; */
             font-family: 'Popping', sans-serif;
-<<<<<<< HEAD
-            margin-top: 15%;
-=======
-            margin-top: 150%;
->>>>>>> 3cacbec751302f3d56ebcced16c9260108fa18e6
+            margin-top: 50%;
             margin-left: 5%;
             font-size: 50px;
         }
             .sec-1-img1{
-<<<<<<< HEAD
                 margin-top: 5%;
-=======
-                margin-top: 10%;
->>>>>>> 3cacbec751302f3d56ebcced16c9260108fa18e6
                 margin-left: 0%;
                 width: 400px;
                 border-radius: 100px;    /*---ขอบมน---*/
@@ -283,7 +275,7 @@ body{
                 margin-top: 25%;
                 margin-left: -3%;
                 position: absolute;
-                background-color: rgb(255, 0, 0);
+                background-color: rgb(59, 58, 58);
             }
             .btn-back1{
                 margin-top: 30%;
