@@ -261,12 +261,20 @@ body{
             height: 15%;
             /* border: 1px solid red; */
             font-family: 'Popping', sans-serif;
+<<<<<<< HEAD
             margin-top: 15%;
+=======
+            margin-top: 150%;
+>>>>>>> 3cacbec751302f3d56ebcced16c9260108fa18e6
             margin-left: 5%;
             font-size: 50px;
         }
             .sec-1-img1{
+<<<<<<< HEAD
                 margin-top: 5%;
+=======
+                margin-top: 10%;
+>>>>>>> 3cacbec751302f3d56ebcced16c9260108fa18e6
                 margin-left: 0%;
                 width: 400px;
                 border-radius: 100px;    /*---ขอบมน---*/
