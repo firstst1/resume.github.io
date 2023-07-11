@@ -3,105 +3,76 @@ body{
     color: #ffffff;
 }
 .slide-1{
-    border: 1px solid rgb(255, 0, 0);
-    max-width: 1450px;
+    /* border: 1px solid rgb(255, 0, 0); */
+    width: 1450px;
     height: 735px;
     margin-top: 0%;
     margin-left: 0%;
 }
     .container-1{
-        border: 1px solid rgb(0, 255, 4);
+        /* border: 1px solid rgb(0, 255, 4); */
         background: #3a3939;
-        width: 29%;
+        width: 27%;
         height: 100%;
     }
+        @media (max-width: 900px){
+            .container-1{
+                width: 20%;
+                height: 100%;
+            }
+        }
+        @media (max-width: 700px){
+            .container-1{
+                width: 12%;
+                height: 100%;
+            }
+        }
+
         .my_name{     /*---ชื่อหัวข้อ---*/
             width: 120%;
-            border: 1px solid rgb(0, 8, 255);
+            /* border: 1px solid rgb(0, 8, 255); */
             font-family: 'Popping', sans-serif;
             overflow: hidden;   /*---ซ่อนข้อความส่วนเกิน---*/
             margin-top: -2%;
             margin-left: 2%;
             font-size: 50px;
-        }
-            @media (max-width: 1420px){
-                .my_name{
-                    font-size: 40px;
-                    width: 80%;
-                }
-            }
-            @media (max-width: 1150px){
-                .my_name{
-                    font-size: 30px;
-                    width: 80%;
-                }
-            }
+        }    
             @media (max-width: 900px){
                 .my_name{
-                    font-size: 25px;
+                    font-size: 37px;
                     width: 80%;
                 }
             }
             @media (max-width: 700px){
                 .my_name{
-                    font-size: 20px;
-                    width: 80%;
-                }
-            }
-            @media (max-width: 750px){
-                .my_name{
-                    font-size: 15px;
-                    width: 80%;
-                }
-            }
-            @media (max-width: 500px){
-                .my_name{
-                    font-size: 10px;
+                    font-size: 22px;
                     width: 80%;
                 }
             }
         .my_lastname{     /*---ชื่อหัวข้อ---*/
             width: 120%;
-            border: 1px solid rgb(0, 8, 255);
+            /* border: 1px solid rgb(0, 8, 255); */
             font-family: 'Popping', sans-serif;
             overflow: hidden;   /*---ซ่อนข้อความส่วนเกิน---*/
             margin-top: -5%;
             margin-left: 2%;
             font-size: 50px;
         }
-            @media (max-width: 1420px){
-                .my_lastname{
-                    font-size: 40px;
-                    width: 120%;
-                }
-            }
-            @media (max-width: 1150px){
-                .my_lastname{
-                    font-size: 30px;
-                    width: 120%;
-                }
-            }
             @media (max-width: 900px){
                 .my_lastname{
-                    font-size: 25px;
+                    font-size: 37px;
                     width: 120%;
                 }
             }
-            @media (max-width: 750px){
+            @media (max-width: 700px){
                 .my_lastname{
-                    font-size: 15px;
+                    font-size: 22px;
                     width: 120%;
-                }
-            }
-            @media (max-width: 500px){
-                .my_lastname{
-                    font-size: 10px;
-                    width: 80%;
                 }
             }
         .my_nickname{     /*---ชื่อหัวข้อ---*/
             width: 100px;
-            border: 1px solid rgb(0, 8, 255);
+            /* border: 1px solid rgb(0, 8, 255); */
             color: #ff2323;   /*---สีตัวอักษร---*/
             font-family: 'Popping', sans-serif;
             overflow: hidden;   /*---ซ่อนข้อความส่วนเกิน---*/
@@ -109,49 +80,35 @@ body{
             margin-left: 2%;
             font-size: 50px;
         }
-            @media (max-width: 1420px){
-                .my_nickname{
-                    font-size: 40px;
-                    width: 80%;
-                }
-            }
-            @media (max-width: 1150px){
-                .my_nickname{
-                    font-size: 30px;
-                    width: 80%;
-                }
-            }
             @media (max-width: 900px){
                 .my_nickname{
-                    font-size: 25px;
-                    width: 80%;
+                    font-size: 80px;
+                    width: 120%;
                 }
             }
             @media (max-width: 700px){
                 .my_nickname{
-                    font-size: 20px;
-                    width: 80%;
-                }
-            }
-            @media (max-width: 750px){
-                .my_nickname{
-                    font-size: 15px;
-                    width: 80%;
-                }
-            }
-            @media (max-width: 500px){
-                .my_nickname{
-                    font-size: 10px;
-                    width: 80%;
+                    display: none;
                 }
             }
         .my_img{
-            border: 1px solid rgb(0, 8, 255);
-            background: #3a3939;
-            width: 93%;
-            margin-top: -4%;
-            margin-left: 0%;
+            /* border: 1px solid rgb(0, 8, 255); */
+            width: 400px;
+            margin-top: -18%;
+            margin-left: -5%;
         }
+            @media (max-width: 900px){
+                .my_img{
+                    width: 320px;
+                    margin-top: 5%;
+                    margin-left: -12%;
+                }
+            }
+            @media (max-width: 700px){
+                .my_img{
+                    display: none;
+                }
+            }
 
     .container-2{
     }
