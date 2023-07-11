@@ -54,6 +54,12 @@ body{
                     width: 80%;
                 }
             }
+            @media (max-width: 500px){
+                .my_name{
+                    font-size: 10px;
+                    width: 80%;
+                }
+            }
         .my_lastname{     /*---ชื่อหัวข้อ---*/
             width: 120%;
             border: 1px solid rgb(0, 8, 255);
@@ -87,6 +93,12 @@ body{
                     width: 120%;
                 }
             }
+            @media (max-width: 500px){
+                .my_lastname{
+                    font-size: 10px;
+                    width: 80%;
+                }
+            }
         .my_nickname{     /*---ชื่อหัวข้อ---*/
             width: 100px;
             border: 1px solid rgb(0, 8, 255);
@@ -97,6 +109,42 @@ body{
             margin-left: 2%;
             font-size: 50px;
         }
+            @media (max-width: 1420px){
+                .my_nickname{
+                    font-size: 40px;
+                    width: 80%;
+                }
+            }
+            @media (max-width: 1150px){
+                .my_nickname{
+                    font-size: 30px;
+                    width: 80%;
+                }
+            }
+            @media (max-width: 900px){
+                .my_nickname{
+                    font-size: 25px;
+                    width: 80%;
+                }
+            }
+            @media (max-width: 700px){
+                .my_nickname{
+                    font-size: 20px;
+                    width: 80%;
+                }
+            }
+            @media (max-width: 750px){
+                .my_nickname{
+                    font-size: 15px;
+                    width: 80%;
+                }
+            }
+            @media (max-width: 500px){
+                .my_nickname{
+                    font-size: 10px;
+                    width: 80%;
+                }
+            }
         .my_img{
             border: 1px solid rgb(0, 8, 255);
             background: #3a3939;
