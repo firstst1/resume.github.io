@@ -1,0 +1,109 @@
+body{
+    background: #080808;
+    color: #ffffff;
+}
+.slide-1{
+    border: 1px solid rgb(255, 0, 0);
+    max-width: 1450px;
+    height: 735px;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+    .container-1{
+        border: 1px solid rgb(0, 255, 4);
+        background: #3a3939;
+        width: 29%;
+        height: 100%;
+    }
+        .my_name{     /*---ชื่อหัวข้อ---*/
+            width: 120%;
+            border: 1px solid rgb(0, 8, 255);
+            font-family: 'Popping', sans-serif;
+            overflow: hidden;   /*---ซ่อนข้อความส่วนเกิน---*/
+            margin-top: -2%;
+            margin-left: 2%;
+            font-size: 50px;
+        }
+            @media (max-width: 1420px){
+                .my_name{
+                    font-size: 40px;
+                    width: 80%;
+                }
+            }
+            @media (max-width: 1150px){
+                .my_name{
+                    font-size: 30px;
+                    width: 80%;
+                }
+            }
+            @media (max-width: 900px){
+                .my_name{
+                    font-size: 25px;
+                    width: 80%;
+                }
+            }
+            @media (max-width: 700px){
+                .my_name{
+                    font-size: 20px;
+                    width: 80%;
+                }
+            }
+            @media (max-width: 750px){
+                .my_name{
+                    font-size: 15px;
+                    width: 80%;
+                }
+            }
+        .my_lastname{     /*---ชื่อหัวข้อ---*/
+            width: 120%;
+            border: 1px solid rgb(0, 8, 255);
+            font-family: 'Popping', sans-serif;
+            overflow: hidden;   /*---ซ่อนข้อความส่วนเกิน---*/
+            margin-top: -5%;
+            margin-left: 2%;
+            font-size: 50px;
+        }
+            @media (max-width: 1420px){
+                .my_lastname{
+                    font-size: 40px;
+                    width: 120%;
+                }
+            }
+            @media (max-width: 1150px){
+                .my_lastname{
+                    font-size: 30px;
+                    width: 120%;
+                }
+            }
+            @media (max-width: 900px){
+                .my_lastname{
+                    font-size: 25px;
+                    width: 120%;
+                }
+            }
+            @media (max-width: 750px){
+                .my_lastname{
+                    font-size: 15px;
+                    width: 120%;
+                }
+            }
+        .my_nickname{     /*---ชื่อหัวข้อ---*/
+            width: 100px;
+            border: 1px solid rgb(0, 8, 255);
+            color: #ff2323;   /*---สีตัวอักษร---*/
+            font-family: 'Popping', sans-serif;
+            overflow: hidden;   /*---ซ่อนข้อความส่วนเกิน---*/
+            margin-top: -5%;
+            margin-left: 2%;
+            font-size: 50px;
+        }
+        .my_img{
+            border: 1px solid rgb(0, 8, 255);
+            background: #3a3939;
+            width: 93%;
+            margin-top: -4%;
+            margin-left: 0%;
+        }
+
+    .container-2{
+    }
