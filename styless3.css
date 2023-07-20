@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    background: #000000;
+    color: #ffffff;
+}
+
+header{
+    margin-top: 0px;
+    margin-left: 0px;
+    font-family: 'Roboto', sans-serif;
+    /* border: 1px solid rgb(255, 0, 0); */
+    display: flex;
+    position: fixed;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 98.8%;
+    height: 10%;
+}
+#container1{
+    margin-top: 0px;
+    margin-left: 0px;
+    /* border: 1px solid rgb(0, 183, 255); */
+    width: 100%;
+    height: 100%;
+}
+    .my_logo{
+        /* border: 1px solid rgb(0, 255, 0); */
+        margin-left: 15px;
+        width: 70px;
+        align-items: center;
+    }
+    .btn-menu{
+        margin-top: -46px;
+        margin-left: 8%;
+        width: 90%;
+        /* border: 1px solid rgb(0, 255, 0); */
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        list-style: none;
+    }
+        .btn-menu-1{
+            border: 1px solid rgb(0, 0, 0);   /*---สีกรอบ---*/
+            background-color: rgb(0, 0, 0);
+            padding: 15px;  /*---ระยะห่างของกรอบกับตัวหนังสือด้านใน--*/
+            margin: 10px;   /*---ระยะห่างกับวัตถุอื่นๆ--*/
+            font-size: 12px;    /*---ขนาดตัวอักษร---*/
+            text-align: center; /*---ให้อยู่ตำเเหน่งตรงกลาง--*/
+            overflow: hidden;   /*---ซ่อนข้อความส่วนเกิน---*/
+            color: #c9c9c9;   /*---สีตัวอักษร---*/
+            border-radius: 20px;    /*---ขอบมน---*/       
+            text-decoration: none;  /*---เส้นใต้---*/
+        }
+        .btn-menu-1:hover{ /*---ดักจับเหตุการณ์ ผู้ใช้งานวางเมาส์ไว้บน Elements---*/
+            box-shadow: 10px -10px 25px 0px rgba(111, 0, 255, 0.526),-10px 10px 25px 0px rgba(0, 191, 255, 0.515);    /*---เงา---*/
+        }
+        .btn-menu-2{
+            border: 1px solid rgb(0, 0, 0);   /*---สีกรอบ---*/
+            background-color: rgb(0, 0, 0);
+            padding: 15px;  /*---ระยะห่างของกรอบกับตัวหนังสือด้านใน--*/
+            margin: 10px;   /*---ระยะห่างกับวัตถุอื่นๆ--*/
+            font-size: 12px;    /*---ขนาดตัวอักษร---*/
+            text-align: center; /*---ให้อยู่ตำเเหน่งตรงกลาง--*/
+            overflow: hidden;   /*---ซ่อนข้อความส่วนเกิน---*/
+            color: #c9c9c9;   /*---สีตัวอักษร---*/
+            border-radius: 20px;    /*---ขอบมน---*/
+            text-decoration: none;  /*---เส้นใต้---*/
+        }
+        .btn-menu-2:hover{ /*---ดักจับเหตุการณ์ ผู้ใช้งานวางเมาส์ไว้บน Elements---*/
+            box-shadow: 10px -10px 25px 0px rgba(111, 0, 255, 0.526),-10px 10px 25px 0px rgba(0, 191, 255, 0.515);    /*---เงา---*/
+        }
+        .btn-menu-3{
+            border: 1px solid rgb(0, 0, 0);   /*---สีกรอบ---*/
+            background-color: rgb(0, 0, 0);
+            padding: 15px;  /*---ระยะห่างของกรอบกับตัวหนังสือด้านใน--*/
+            margin: 10px;   /*---ระยะห่างกับวัตถุอื่นๆ--*/
+            font-size: 12px;    /*---ขนาดตัวอักษร---*/
+            text-align: center; /*---ให้อยู่ตำเเหน่งตรงกลาง--*/
+            overflow: hidden;   /*---ซ่อนข้อความส่วนเกิน---*/
+            color: #c9c9c9;   /*---สีตัวอักษร---*/
+            border-radius: 20px;    /*---ขอบมน---*/
+            text-decoration: none;  /*---เส้นใต้---*/
+        }
+        .btn-menu-3:hover{ /*---ดักจับเหตุการณ์ ผู้ใช้งานวางเมาส์ไว้บน Elements---*/
+            box-shadow: 10px -10px 25px 0px rgba(111, 0, 255, 0.526),-10px 10px 25px 0px rgba(0, 191, 255, 0.515);    /*---เงา---*/
+        }
+        .btn-menu-4{
+            border: 1px solid rgb(0, 0, 0);   /*---สีกรอบ---*/
+            background-color: rgb(0, 0, 0);
+            padding: 15px;  /*---ระยะห่างของกรอบกับตัวหนังสือด้านใน--*/
+            margin: 10px;   /*---ระยะห่างกับวัตถุอื่นๆ--*/
+            font-size: 12px;    /*---ขนาดตัวอักษร---*/
+            text-align: center; /*---ให้อยู่ตำเเหน่งตรงกลาง--*/
+            overflow: hidden;   /*---ซ่อนข้อความส่วนเกิน---*/
+            color: #c9c9c9;   /*---สีตัวอักษร---*/
+            border-radius: 20px;    /*---ขอบมน---*/
+            text-decoration: none;  /*---เส้นใต้---*/
+        }
+        .btn-menu-4:hover{ /*---ดักจับเหตุการณ์ ผู้ใช้งานวางเมาส์ไว้บน Elements---*/
+            box-shadow: 10px -10px 25px 0px rgba(111, 0, 255, 0.526),-10px 10px 25px 0px rgba(0, 191, 255, 0.515);    /*---เงา---*/
+        }
+        .btn-menu-5{
+            border: 1px solid rgb(0, 0, 0);   /*---สีกรอบ---*/
+            background-color: rgb(0, 0, 0);
+            padding: 15px;  /*---ระยะห่างของกรอบกับตัวหนังสือด้านใน--*/
+            margin: 10px;   /*---ระยะห่างกับวัตถุอื่นๆ--*/
+            font-size: 12px;    /*---ขนาดตัวอักษร---*/
+            text-align: center; /*---ให้อยู่ตำเเหน่งตรงกลาง--*/
+            overflow: hidden;   /*---ซ่อนข้อความส่วนเกิน---*/
+            color: #c9c9c9;   /*---สีตัวอักษร---*/
+            border-radius: 20px;    /*---ขอบมน---*/
+            text-decoration: none;  /*---เส้นใต้---*/
+        }
+        .btn-menu-5:hover{ /*---ดักจับเหตุการณ์ ผู้ใช้งานวางเมาส์ไว้บน Elements---*/
+            box-shadow: 10px -10px 25px 0px rgba(111, 0, 255, 0.526),-10px 10px 25px 0px rgba(0, 191, 255, 0.515);    /*---เงา---*/
+        }
+        .btn-menu-6{
+            border: 1px solid rgb(255, 0, 0);   /*---สีกรอบ---*/
+            background-color: rgb(255, 0, 0);
+            padding: 15px;  /*---ระยะห่างของกรอบกับตัวหนังสือด้านใน--*/
+            margin: 20px;   /*---ระยะห่างกับวัตถุอื่นๆ--*/
+            font-size: 12px;    /*---ขนาดตัวอักษร---*/
+            text-align: center; /*---ให้อยู่ตำเเหน่งตรงกลาง--*/
+            overflow: hidden;   /*---ซ่อนข้อความส่วนเกิน---*/
+            color: #c9c9c9;   /*---สีตัวอักษร---*/
+            border-radius: 20px;    /*---ขอบมน---*/
+            text-decoration: none;  /*---เส้นใต้---*/
+        }
+        .btn-menu-6:hover{ /*---ดักจับเหตุการณ์ ผู้ใช้งานวางเมาส์ไว้บน Elements---*/
+            box-shadow: 10px -10px 25px 0px rgba(255, 0, 0, 0.588),-10px 10px 25px 0px rgba(255, 230, 0, 0.453);    /*---เงา---*/
+        }
+
+    .ham-menu{
+        display: inline-block;
+        cursor: pointer;
+        position: absolute;
+    }
+
+    .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #bfbdbd;
+    margin: 6px 0;
+    transition: 0.4s;
+    }
+
+    /* Rotate first bar */
+    .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+    }
+
+    /* Fade out the second bar */
+    .change .bar2 {opacity: 0;}
+
+    /* Rotate last bar */
+    .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+    }
+       
+.container-2{
+    margin-top: 0px;
+    margin-left: 0px;
+    /* border: 1px solid rgb(255, 0, 0); */
+    display: flex;
+    height: 744px;
+}
+    .video-background{
+        /* border: 1px solid rgb(255, 0, 0); */
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 98%;
+        height: 700px;
+        object-fit: cover;
+        align-items: center;
+        background-size: cover;
+        position: absolute;
+        z-index: -1;
+        overflow: hidden;   /*---ซ่อนข้อความส่วนเกิน---*/
+    }
+    .container-2-L{
+        margin-top: 79px;
+        margin-left: 0px;
+        /* border: 1px solid rgb(162, 255, 0); */
+        display: flex;
+        width: 50%;
+        height: 89%;
+    }
+        .my_name{
+            /* border: 1px solid rgb(0, 8, 255); */
+            width: 310px;
+            height: 60px;
+            font-family: 'Roboto', sans-serif;
+            color: #dcdcdc;   /*---สีตัวอักษร---*/
+            overflow: hidden;   /*---ซ่อนข้อความส่วนเกิน---*/
+            margin-top: 350px;
+            margin-left: 70px;
+            font-size: 60px;
+        }
+        .nick_name{
+            /* border: 1px solid rgb(0, 8, 255); */
+            width: 310px;
+            height: 115px;
+            font-family: 'Roboto', sans-serif;
+            color: #ff0000;   /*---สีตัวอักษร---*/
+            overflow: hidden;   /*---ซ่อนข้อความส่วนเกิน---*/
+            margin-top: 301px;
+            margin-left: 0px;
+            font-size: 110px;
+        }
+        .my_lastname{
+            /* border: 1px solid rgb(0, 8, 255); */
+            width: 420px;
+            height: 60px;
+            font-family: 'Roboto', sans-serif;
+            color: #dcdcdc;   /*---สีตัวอักษร---*/
+            overflow: hidden;   /*---ซ่อนข้อความส่วนเกิน---*/
+            margin-top: 420px;
+            margin-left: -620px;
+            font-size: 60px;
+        }
+        .hi{
+            /* border: 1px solid rgb(0, 8, 255); */
+            width: 600px;
+            height: 100px;
+            font-family: 'Roboto', sans-serif;
+            color: #c2c2c2;   /*---สีตัวอักษร---*/
+            overflow: hidden;   /*---ซ่อนข้อความส่วนเกิน---*/
+            margin-top: 500px;
+            margin-left: 70px;
+            font-size: 30px;
+            position: absolute;
+        }
+    .container-2-R{
+        margin-top: 79px;
+        margin-left: 0px;
+        /* border: 1px solid rgb(162, 255, 0); */
+        display: flex;
+        width: 50%;
+        height: 89%;
+
+    }
+        .my_img{
+            /* border: 1px solid rgb(0, 8, 255); */
+            margin-top: 0px;
+            margin-left: 30%;
+        }
+.container-3{
+    margin-top: 0px;
+    margin-left: 0px;
+    /* border: 1px solid rgb(255, 0, 0); */
+    display: flex;
+    height: 744px;
+}
+
+.container-4{
+    margin-top: 0px;
+    margin-left: 0px;
+    border: 1px solid rgb(255, 0, 0);
+    display: flex;
+    height: 744px;
+}
+/* ---------------- */
+@media only screen and (min-width: 1080px){
+    .ham-menu{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1300px){
+    .my_img{
+        /* border: 1px solid rgb(0, 8, 255); */
+        margin-top: 0px;
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width: 1080px){
+    .btn-menu{
+        display: none;
+    }
+    .ham-menu{
+        top: 1rem;
+        right: 1rem;
+    }
+    .container-1{
+        flex-direction: column;
+    }
+    .btn-menumenu-active{
+        top: -0.5rem;
+        right: 0.5rem;
+        width: 200px;
+        height: 350px;
+        border: 1px solid rgb(116, 115, 115);
+        border-radius: 20px;    /*---ขอบมน---*/
+        list-style: none;
+        position: absolute;
+    }
+    .btn-menu-1{
+        margin-top: 10px;
+        margin-left: -20px;
+        position: absolute;
+    }
+    .btn-menu-2{
+        margin-top: 65px;
+        margin-left: -20px;
+        position: absolute;
+    }
+    .btn-menu-3{
+        margin-top: 120px;
+        margin-left: -20px;
+        position: absolute;
+    }
+    .btn-menu-4{
+        margin-top: 175px;
+        margin-left: -20px;
+        position: absolute;
+    }
+    .btn-menu-5{
+        margin-top: 230px;
+        margin-left: -20px;
+        position: absolute;
+    }
+    .btn-menu-6{
+        margin-top: 285px;
+        margin-left: -20px;
+        position: absolute;
+    }
+    .menu-active{
+        display: block;
+    }
+    .my_name{
+        width: 310px;
+        margin-top: 350px;
+        margin-left: 35px;
+    }
+    .my_img{
+        /* border: 1px solid rgb(0, 8, 255); */
+        margin-top: 0px;
+        margin-left: 5%;
+    }
+    .hi{
+        margin-left: 35px;
+    }
+}
+@media only screen and (max-width: 992px){
+    .my_lastname{
+        width: 350px;
+        margin-top: 420px;
+        font-size: 50px;
+    }
+    .my_img{
+        display: none;
+    }
+    .container-2-L{
+        width: 100%;
+    }
+    .container-2-R{
+        display: none;
+    }
+    .hi{
+        margin-top: 500px;
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .my_name{
+        width: 250px;
+        font-size: 50px;
+        margin-top: 250px;
+    }
+    .nick_name{
+        width: 280px;
+        /* border: 1px solid rgb(0, 8, 255); */
+        font-size: 100px;
+        margin-top: 201px;
+        margin-left: 0%;
+    }
+    .my_lastname{
+        font-size: 50px;
+        margin-top: 305px;
+        margin-left: -533px;
+    }
+    .hi{
+        /* border: 1px solid rgb(0, 8, 255); */
+        width: 500px;
+        height: 100px;
+        margin-top: 380px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .my_name{
+        /* border: 1px solid rgb(0, 8, 255); */
+        width: 200px;
+        height: 50px;
+        font-size: 40px;
+    }
+    .nick_name{
+        width: 220px;
+        height: 90px;
+        font-size: 80px;
+        margin-top: 211px;
+    }
+    .my_lastname{
+        /* border: 1px solid rgb(0, 8, 255); */
+        width: 280px;
+        height: 50px;
+        font-size: 40px;
+        margin-left: -422px;
+        margin-top: 295px;
+    }
+    .hi{
+        width: 420px;
+        /* border: 1px solid rgb(0, 8, 255); */
+        margin-top: 360px;
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .my_name{
+        /* border: 1px solid rgb(0, 8, 255); */
+        width: 150px;
+        height: 40px;
+        font-size: 30px;
+        margin-left: 5px;
+    }
+    .nick_name{
+        width: 190px;
+        height: 80px;
+        font-size: 70px;
+        margin-top: 211px;
+    }
+    .my_lastname{
+        /* border: 1px solid rgb(0, 8, 255); */
+        width: 210px;
+        height: 40px;
+        font-size: 30px;
+        margin-left: -343px;
+        margin-top: 290px;
+    }
+    .hi{
+        width: 350px;
+        /* border: 1px solid rgb(0, 8, 255); */
+        margin-top: 345px;
+        margin-left: 5px;
+        font-size: 15px;
+    }
+}

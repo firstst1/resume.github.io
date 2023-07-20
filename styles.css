@@ -42,7 +42,7 @@ body{
             .my_img{
                 /* border: 1px solid red; */
                 /* height: 900px; */
-                width: 400px;
+                width: 300px;
                 margin-top: -21%;
                 margin-left: -12%;
             }
@@ -299,3 +299,4 @@ body{
                 transform: translate(0,-3px);   /*---ปุ่มเด้ง---*/
                 box-shadow: 10px -10px 25px 0px rgba(111, 0, 255, 0.526),-10px 10px 25px 0px rgba(0, 191, 255, 0.515);    /*---เงา---*/
             }
+
