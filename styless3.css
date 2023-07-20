@@ -287,7 +287,6 @@ header{
             height: 100%;
             justify-content: center;
             align-items: center;        /*----กึ่งกลางเเนวตั้ง----*/
-
         }
             .kmutnb_img{
                 width: 200px;
@@ -349,11 +348,60 @@ header{
         font-size: 30px;
         font-family: 'Roboto', sans-serif;
     }
+        .container-3-3-L{
+            display: flex; 
+            margin-top: 0px;
+            margin-left: 0px; 
+            /* border: 1px solid rgb(0, 255, 38); */
+            width: 50%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;        /*----กึ่งกลางเเนวตั้ง----*/
+
+        }
+            .tl_img{
+                width: 250px;
+                height: auto;
+                border-radius: 100px;    /*---ขอบมน---*/
+            }
+        .container-3-3-R{
+            display: block;
+            margin-top: 0px;
+            margin-left: 0px;
+            /* border: 1px solid rgb(0, 255, 38); */
+            width: 50%;
+            height: 100%;
+            font-family: 'Roboto', sans-serif;
+        }
+            .education-highvocational-1{
+                margin-top: 80px;
+                margin-left: 0px;
+                font-size: 25px;
+                /* border: 1px solid rgb(0, 68, 255); */
+            }
+            .education-highvocational-2{
+                margin-top: 15px;
+                margin-left: 0px;
+                font-size: 20px;
+                /* border: 1px solid rgb(0, 68, 255); */
+            }
+            .education-highvocational-3{
+                margin-top: 15px;
+                margin-left: 10px;
+                font-size: 17px;
+                /* border: 1px solid rgb(0, 68, 255); */
+            }
+            .education-highvocational-4{
+                margin-top: 15px;
+                margin-left: 10px;
+                font-size: 17px;
+                /* border: 1px solid rgb(0, 68, 255); */
+            }
 
 .container-4{
     margin-top: 0px;
     margin-left: 0px;
-    /* border: 1px solid rgb(255, 0, 0); */
+    border: 1px solid rgb(255, 0, 0);
     display: flex;
     height: 744px;
 }
@@ -507,6 +555,21 @@ header{
     .education-bachelor-6{
         font-size: 14px;
     }
+    .tl_img{
+        width: 200px;
+    }
+    .education-highvocational-1{
+        font-size: 22px;
+    }
+    .education-highvocational-2{
+        font-size: 17px;
+    }
+    .education-highvocational-3{
+        font-size: 14px;
+    }
+    .education-highvocational-4{
+        font-size: 14px;
+    }
 }
 @media only screen and (max-width: 600px){
     .my_name{
@@ -558,6 +621,21 @@ header{
         font-size: 12px;
     }
     .education-bachelor-6{
+        font-size: 12px;
+    }
+    .tl_img{
+        width: 180px;
+    }
+    .education-highvocational-1{
+        font-size: 20px;
+    }
+    .education-highvocational-2{
+        font-size: 15px;
+    }
+    .education-highvocational-3{
+        font-size: 12px;
+    }
+    .education-highvocational-4{
         font-size: 12px;
     }
 }
