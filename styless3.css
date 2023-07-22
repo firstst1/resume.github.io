@@ -886,6 +886,37 @@ header{
     display: block;
     height: 744px;
 }
+    .container-6-1{
+        display: flex;
+        margin-top: 0px;
+        margin-left: 0px;
+        /* border: 1px solid rgb(0, 183, 255); */
+        width: 100%;
+        height: 15%;
+        color: #ff2f00; 
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+        justify-content: center;
+        align-items: flex-end;        /*----กึ่งกลางเเนวตั้ง----*/
+    }
+    .container-6-2{
+        display: flex;
+        margin-top: 0px;
+        /* margin-left: 0px; */
+        /* border: 1px solid rgb(0, 183, 255); */
+        width: 100%;
+        height: 85%;
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+        justify-content: center;
+    }
+        .skill_img2{
+            margin-top: 50px;
+            width: auto;
+            height: 500px;
+            /* border: 1px solid rgb(0, 255, 26); */
+            border-radius: 40%;    /*---ขอบมน---*/
+        }
 /* --------------------------------------------------------------------------------------------------------------------- */
 /* --------------------------------------------------------------------------------------------------------------------- */
 /* --------------------------------------------------------------------------------------------------------------------- */
@@ -1258,6 +1289,10 @@ header{
         width: 380px;
         margin-left: -250px;
     }
+    .skill_img2{
+        margin-top: 50px;
+        height: 400px;
+    }
 }
 @media only screen and (max-width: 600px){
     .my_name{
@@ -1528,6 +1563,10 @@ header{
         width: 340px;
         height: auto;
         margin-left: -175px;
+    }
+    .skill_img2{
+        margin-top: 50px;
+        height: 250px;
     }
 }
 @media only screen and (max-width: 480px){
