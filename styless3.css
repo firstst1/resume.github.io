@@ -306,36 +306,42 @@ header{
                 margin-top: 50px;
                 margin-left: 0px;
                 font-size: 25px;
+                color: #dcdcdc;   /*---สีตัวอักษร---*/
                 /* border: 1px solid rgb(0, 68, 255); */
             }
             .education-bachelor-2{
                 margin-top: 15px;
                 margin-left: 0px;
                 font-size: 20px;
+                color: #dcdcdc;   /*---สีตัวอักษร---*/
                 /* border: 1px solid rgb(0, 68, 255); */
             }
             .education-bachelor-3{
                 margin-top: 15px;
                 margin-left: 10px;
                 font-size: 17px;
+                color: #c2c2c2;   /*---สีตัวอักษร---*/
                 /* border: 1px solid rgb(0, 68, 255); */
             }
             .education-bachelor-4{
                 margin-top: 15px;
                 margin-left: 10px;
                 font-size: 17px;
+                color: #c2c2c2;   /*---สีตัวอักษร---*/
                 /* border: 1px solid rgb(0, 68, 255); */
             }
             .education-bachelor-5{
                 margin-top: 15px;
                 margin-left: 10px;
                 font-size: 17px;
+                color: #c2c2c2;   /*---สีตัวอักษร---*/
                 /* border: 1px solid rgb(0, 68, 255); */
             }
             .education-bachelor-6{
                 margin-top: 15px;
                 margin-left: 10px;
                 font-size: 17px;
+                color: #c2c2c2;   /*---สีตัวอักษร---*/
                 /* border: 1px solid rgb(0, 68, 255); */
             }
     .container-3-3{
@@ -377,24 +383,28 @@ header{
                 margin-top: 80px;
                 margin-left: 0px;
                 font-size: 25px;
+                color: #dcdcdc;   /*---สีตัวอักษร---*/
                 /* border: 1px solid rgb(0, 68, 255); */
             }
             .education-highvocational-2{
                 margin-top: 15px;
                 margin-left: 0px;
                 font-size: 20px;
+                color: #dcdcdc;   /*---สีตัวอักษร---*/
                 /* border: 1px solid rgb(0, 68, 255); */
             }
             .education-highvocational-3{
                 margin-top: 15px;
                 margin-left: 10px;
                 font-size: 17px;
+                color: #c2c2c2;   /*---สีตัวอักษร---*/
                 /* border: 1px solid rgb(0, 68, 255); */
             }
             .education-highvocational-4{
                 margin-top: 15px;
                 margin-left: 10px;
                 font-size: 17px;
+                color: #c2c2c2;   /*---สีตัวอักษร---*/
                 /* border: 1px solid rgb(0, 68, 255); */
             }
 
@@ -442,30 +452,35 @@ header{
                 margin-top: 110px;
                 margin-left: 50px;
                 font-size: 25px;
+                color: #dcdcdc;   /*---สีตัวอักษร---*/
                 /* border: 1px solid rgb(0, 68, 255); */
             }
             .work-bachelor-2{
                 margin-top: 15px;
                 margin-left: 50px;
                 font-size: 20px;
+                color: #dcdcdc;   /*---สีตัวอักษร---*/
                 /* border: 1px solid rgb(0, 68, 255); */
             }
             .work-bachelor-3{
                 margin-top: 15px;
                 margin-left: 60px;
                 font-size: 17px;
+                color: #c2c2c2;   /*---สีตัวอักษร---*/
                 /* border: 1px solid rgb(0, 68, 255); */
             }
             .work-bachelor-4{
                 margin-top: 15px;
                 margin-left: 60px;
                 font-size: 17px;
+                color: #c2c2c2;   /*---สีตัวอักษร---*/
                 /* border: 1px solid rgb(0, 68, 255); */
             }
             .work-bachelor-5{
                 margin-top: 15px;
                 margin-left: 60px;
                 font-size: 17px;
+                color: #c2c2c2;   /*---สีตัวอักษร---*/
                 /* border: 1px solid rgb(0, 68, 255); */
             }
         .container-4-2-C{
@@ -482,18 +497,21 @@ header{
                 margin-top: 110px;
                 margin-left: 50px;
                 font-size: 25px;
+                color: #dcdcdc;   /*---สีตัวอักษร---*/
                 /* border: 1px solid rgb(0, 68, 255); */
             }
             .work-highvocational-2{
                 margin-top: 15px;
                 margin-left: 50px;
                 font-size: 20px;
+                color: #dcdcdc;   /*---สีตัวอักษร---*/
                 /* border: 1px solid rgb(0, 68, 255); */
             }
             .work-highvocational-3{
                 margin-top: 15px;
                 margin-left: 60px;
                 font-size: 17px;
+                color: #c2c2c2;   /*---สีตัวอักษร---*/
                 /* border: 1px solid rgb(0, 68, 255); */
             }
         .container-4-2-R{
@@ -510,21 +528,170 @@ header{
                 margin-top: 110px;
                 margin-left: 50px;
                 font-size: 25px;
+                color: #dcdcdc;   /*---สีตัวอักษร---*/
                 /* border: 1px solid rgb(0, 68, 255); */
             }
             .work-vocational-2{
                 margin-top: 15px;
                 margin-left: 50px;
                 font-size: 20px;
+                color: #dcdcdc;   /*---สีตัวอักษร---*/
                 /* border: 1px solid rgb(0, 68, 255); */
             }
             .work-vocational-3{
                 margin-top: 15px;
                 margin-left: 60px;
                 font-size: 17px;
+                color: #c2c2c2;   /*---สีตัวอักษร---*/
                 /* border: 1px solid rgb(0, 68, 255); */
             }
 
+.container-5{
+    margin-top: 0px;
+    margin-left: 0px;
+    border: 1px solid rgb(255, 0, 0);
+    display: block;
+    height: 744px;
+}
+    .container-5-1{
+        display: flex;
+        margin-top: 0px;
+        margin-left: 0px;
+        border: 1px solid rgb(0, 183, 255);
+        width: 100%;
+        height: 15%;
+        color: #ff2f00; 
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+        justify-content: center;
+        align-items: flex-end;        /*----กึ่งกลางเเนวตั้ง----*/
+    }
+    .container-5-2{
+        display: flex;
+        margin-top: 0px;
+        margin-left: 0px;
+        border: 1px solid rgb(0, 183, 255);
+        width: 100%;
+        height: 50%;
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+        .container-5-2-L{
+            display: block; 
+            margin-top: 0px;
+            margin-left: 0px; 
+            border: 1px solid rgb(0, 255, 38);
+            width: 50%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;        /*----กึ่งกลางเเนวตั้ง----*/
+        }
+            .performance-bachelor-1{
+                margin-top: 30px;
+                margin-left: 50px;
+                font-size: 25px;
+                color: #dcdcdc;   /*---สีตัวอักษร---*/
+                /* border: 1px solid rgb(0, 68, 255); */
+            }
+            .performance-bachelor-2{
+                margin-top: 15px;
+                margin-left: 50px;
+                font-size: 20px;
+                color: #dcdcdc;   /*---สีตัวอักษร---*/
+                /* border: 1px solid rgb(0, 68, 255); */
+            }
+            .performance-bachelor-3{
+                margin-top: 15px;
+                margin-left: 60px;
+                font-size: 17px;
+                color: #c2c2c2;   /*---สีตัวอักษร---*/
+                /* border: 1px solid rgb(0, 68, 255); */
+            }
+            .performance-bachelor-4{
+                margin-top: 15px;
+                margin-left: 60px;
+                font-size: 17px;
+                color: #c2c2c2;   /*---สีตัวอักษร---*/
+                /* border: 1px solid rgb(0, 68, 255); */
+            }
+            .performance-bachelor-5{
+                margin-top: 15px;
+                margin-left: 60px;
+                font-size: 17px;
+                color: #c2c2c2;   /*---สีตัวอักษร---*/
+                /* border: 1px solid rgb(0, 68, 255); */
+            }
+            .performance-bachelor-6{
+                margin-top: 15px;
+                margin-left: 60px;
+                font-size: 17px;
+                color: #c2c2c2;   /*---สีตัวอักษร---*/
+                /* border: 1px solid rgb(0, 68, 255); */
+            }
+            .performance-bachelor-7{
+                margin-top: 15px;
+                margin-left: 60px;
+                font-size: 17px;
+                color: #c2c2c2;   /*---สีตัวอักษร---*/
+                /* border: 1px solid rgb(0, 68, 255); */
+            }
+        .container-5-2-R{
+            display: flex; 
+            margin-top: 30px;
+            margin-left: 0px; 
+            border: 1px solid rgb(0, 255, 38);
+            width: 45%;
+            height: 80%;
+            border-radius: 20px;    /*---ขอบมน---*/
+        }
+            .project_img1{
+                margin-top: 30px;
+                margin-left: 30px;
+                width: 90px;
+                height: auto;
+                position: absolute;
+                border-radius: 20px;    /*---ขอบมน---*/
+                box-shadow: 10px -10px 25px 0px rgba(139, 182, 150, 0.526),-10px 10px 25px 0px rgba(72, 70, 69, 0.515);    /*---เงา---*/
+            }
+            .project_img1:hover{ /*---ดักจับเหตุการณ์ ผู้ใช้งานวางเมาส์ไว้บน Elements---*/
+                width: 250px;
+                height: auto;
+                margin-top: 0px;
+                margin-left: -100px;
+                /* position: absolute; */
+            }
+            .project_img2{
+                margin-top: 50px;
+                margin-left: 150px;
+                width: 90px;
+                height: auto;
+                position: absolute;
+                border-radius: 20px;    /*---ขอบมน---*/
+                box-shadow: 10px -10px 25px 0px rgba(139, 182, 150, 0.526),-10px 10px 25px 0px rgba(72, 70, 69, 0.515);    /*---เงา---*/
+            }
+            .project_img2:hover{ /*---ดักจับเหตุการณ์ ผู้ใช้งานวางเมาส์ไว้บน Elements---*/
+                width: 250px;
+                height: auto;
+                margin-top: 0px;
+                margin-left: -100px;
+                /* position: absolute; */
+            }
+            .project_img3{
+                margin-top: 30px;
+                margin-left: 270px;
+                width: 90px;
+                height: auto;
+                position: absolute;
+                border-radius: 20px;    /*---ขอบมน---*/
+                box-shadow: 10px -10px 25px 0px rgba(139, 182, 150, 0.526),-10px 10px 25px 0px rgba(72, 70, 69, 0.515);    /*---เงา---*/
+            }
+            .project_img3:hover{ /*---ดักจับเหตุการณ์ ผู้ใช้งานวางเมาส์ไว้บน Elements---*/
+                width: 250px;
+                height: auto;
+                margin-top: 0px;
+                margin-left: -100px;
+                /* position: absolute; */
+            }
 /* ---------------- */
 @media only screen and (min-width: 1080px){
     .ham-menu{
@@ -554,6 +721,7 @@ header{
         right: 0.5rem;
         width: 200px;
         height: 350px;
+        background-color: #000000;
         border: 1px solid rgb(116, 115, 115);
         border-radius: 20px;    /*---ขอบมน---*/
         list-style: none;
@@ -740,6 +908,40 @@ header{
         margin-left: 30px;
         font-size: 14px;
     }
+    .performance-bachelor-1{
+        margin-top: 60px;
+        margin-left: 20px;
+        font-size: 22px;
+    }
+    .performance-bachelor-2{
+        margin-left: 20px;
+        font-size: 17px;
+    }
+    .performance-bachelor-3{
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    .performance-bachelor-4{
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    .performance-bachelor-5{
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    .performance-bachelor-6{
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    .performance-bachelor-7{
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    .container-5-2-R{
+        margin-top: 60px;
+        width: 46%;
+        height: 80%;
+    }
 }
 @media only screen and (max-width: 600px){
     .my_name{
@@ -854,6 +1056,37 @@ header{
     .work-vocational-3{
         margin-left: 20px;
         font-size: 12px;
+    }
+    .performance-bachelor-1{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .performance-bachelor-2{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .performance-bachelor-3{
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .performance-bachelor-4{
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .performance-bachelor-5{
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .performance-bachelor-6{
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .performance-bachelor-7{
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .container-5-2-R{
+        width: 47%;
     }
 }
 @media only screen and (max-width: 480px){
