@@ -10,7 +10,7 @@ function toggleham(x) {
 }
 
 var scroll = new SmoothScroll('a[href*="#"]', {
-  speed: 1000
+  speed: 800
 });
 
 window.addEventListener("scroll", function(){

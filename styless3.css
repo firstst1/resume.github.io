@@ -551,7 +551,7 @@ header{
     margin-left: 0px;
     /* border: 1px solid rgb(255, 0, 0); */
     display: block;
-    height: 744px;
+    height: 840px;
 }
     .container-5-1{
         display: flex;
@@ -658,7 +658,6 @@ header{
                 height: auto;
                 margin-top: 0px;
                 margin-left: -300px;
-                /* position: absolute; */
             }
             .project_img2{
                 margin-top: 50px;
@@ -674,7 +673,6 @@ header{
                 height: auto;
                 margin-top: 0px;
                 margin-left: -300px;
-                /* position: absolute; */
             }
             .project_img3{
                 margin-top: 20px;
@@ -756,7 +754,148 @@ header{
                 margin-left: -350px;
                 /* position: absolute; */
             }
-/* ---------------- */
+    .container-5-3{
+        display: flex;
+        margin-top: 0px;
+        margin-left: 0px;
+        /* border: 1px solid rgb(0, 183, 255); */
+        width: 100%;
+        height: 35%;
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+        .container-5-3-L{
+            display: block; 
+            margin-top: 0px;
+            margin-left: 0px; 
+            /* border: 1px solid rgb(0, 255, 38); */
+            width: 50%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;        /*----กึ่งกลางเเนวตั้ง----*/
+        }
+            .performance-trainee-1{
+                margin-top: 20px;
+                margin-left: 50px;
+                font-size: 25px;
+                color: #dcdcdc;   /*---สีตัวอักษร---*/
+                /* border: 1px solid rgb(0, 68, 255); */
+            }
+            .performance-trainee-2{
+                margin-top: 15px;
+                margin-left: 50px;
+                font-size: 20px;
+                color: #dcdcdc;   /*---สีตัวอักษร---*/
+                /* border: 1px solid rgb(0, 68, 255); */
+            }
+            .performance-trainee-3{
+                margin-top: 15px;
+                margin-left: 60px;
+                font-size: 17px;
+                color: #c2c2c2;   /*---สีตัวอักษร---*/
+                /* border: 1px solid rgb(0, 68, 255); */
+            }
+            .performance-trainee-4{
+                margin-top: 15px;
+                margin-left: 60px;
+                font-size: 17px;
+                color: #c2c2c2;   /*---สีตัวอักษร---*/
+                /* border: 1px solid rgb(0, 68, 255); */
+            }
+            .performance-trainee-5{
+                margin-top: 15px;
+                margin-left: 60px;
+                font-size: 17px;
+                color: #c2c2c2;   /*---สีตัวอักษร---*/
+                /* border: 1px solid rgb(0, 68, 255); */
+            }
+        .container-5-3-R{
+            display: flex; 
+            margin-top: 30px;
+            margin-left: 0px; 
+            border: 1px solid rgba(164, 164, 164, 0.819);
+            width: 400px;
+            height: 80%;
+            border-radius: 20px;    /*---ขอบมน---*/
+        }
+            .project_img8{
+                margin-top: 20px;
+                margin-left: 20px;
+                width: 90px;
+                height: auto;
+                position: absolute;
+                border-radius: 10px;    /*---ขอบมน---*/
+                box-shadow: 10px -10px 25px 0px rgba(130, 192, 145, 0.526),-10px 10px 25px 0px rgba(72, 70, 69, 0.515);    /*---เงา---*/
+            }
+            .project_img8:hover{ /*---ดักจับเหตุการณ์ ผู้ใช้งานวางเมาส์ไว้บน Elements---*/
+                width: 200px;
+                height: auto;
+                margin-top: -20px;
+                margin-left: -300px;
+            }
+            .project_img9{
+                margin-top: 90px;
+                margin-left: 135px;
+                width: 100px;
+                height: auto;
+                position: absolute;
+                border-radius: 10px;    /*---ขอบมน---*/
+                box-shadow: 10px -10px 25px 0px rgba(130, 192, 145, 0.526),-10px 10px 25px 0px rgba(72, 70, 69, 0.515);    /*---เงา---*/
+            }
+            .project_img9:hover{ /*---ดักจับเหตุการณ์ ผู้ใช้งานวางเมาส์ไว้บน Elements---*/
+                width: 280px;
+                height: auto;
+                margin-top: -20px;
+                margin-left: -300px;
+            }
+            .project_img10{
+                margin-top: 30px;
+                margin-left: 260px;
+                width: 120px;
+                height: auto;
+                position: absolute;
+                border-radius: 10px;    /*---ขอบมน---*/
+                box-shadow: 10px -10px 25px 0px rgba(130, 192, 145, 0.526),-10px 10px 25px 0px rgba(72, 70, 69, 0.515);    /*---เงา---*/
+            }
+            .project_img10:hover{ /*---ดักจับเหตุการณ์ ผู้ใช้งานวางเมาส์ไว้บน Elements---*/
+                width: 440px;
+                height: auto;
+                margin-top: -20px;
+                margin-left: -300px;
+            }
+            .project_img11{
+                margin-top: 130px;
+                margin-left: 250px;
+                width: 120px;
+                height: auto;
+                position: absolute;
+                border-radius: 10px;    /*---ขอบมน---*/
+                box-shadow: 10px -10px 25px 0px rgba(130, 192, 145, 0.526),-10px 10px 25px 0px rgba(72, 70, 69, 0.515);    /*---เงา---*/
+            }
+            .project_img11:hover{ /*---ดักจับเหตุการณ์ ผู้ใช้งานวางเมาส์ไว้บน Elements---*/
+                width: 440px;
+                height: auto;
+                margin-top: -20px;
+                margin-left: -300px;
+            }
+
+.container-6{
+    margin-top: 0px;
+    margin-left: 0px;
+    /* border: 1px solid rgb(255, 0, 0); */
+    display: block;
+    height: 744px;
+}
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------------- */
 @media only screen and (min-width: 1080px){
     .ham-menu{
         display: none;
@@ -1062,6 +1201,63 @@ header{
         width: 500px;
         margin-left: -250px;
     }
+    .performance-trainee-1{
+        margin-left: 20px;
+        font-size: 22px;
+    }
+    .performance-trainee-2{
+        margin-left: 20px;
+        font-size: 17px;
+    }
+    .performance-trainee-3{
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    .performance-trainee-4{
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    .performance-trainee-5{
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    .container-5-3-R{
+        width: 300px;
+        height: 80%;
+    }
+    .project_img8{
+        width: 70px;
+    }
+    .project_img8:hover{ /*---ดักจับเหตุการณ์ ผู้ใช้งานวางเมาส์ไว้บน Elements---*/
+        margin-left: -250px;
+    }
+    .project_img9{
+        width: 70px;
+        margin-top: 80px;
+        margin-left: 105px;
+    }
+    .project_img9:hover{ /*---ดักจับเหตุการณ์ ผู้ใช้งานวางเมาส์ไว้บน Elements---*/
+        width: 200px;
+        margin-left: -250px;
+    }
+    .project_img10{
+        width: 80px;
+        margin-top: 40px;
+        margin-left: 200px;
+    }
+    .project_img10:hover{ /*---ดักจับเหตุการณ์ ผู้ใช้งานวางเมาส์ไว้บน Elements---*/
+        width: 380px;
+        margin-left: -250px;
+    }
+    .project_img11{
+        width: 120px;
+        margin-top: 150px;
+        margin-left: 150px;
+    }
+    .project_img11:hover{ /*---ดักจับเหตุการณ์ ผู้ใช้งานวางเมาส์ไว้บน Elements---*/
+        width: 380px;
+        margin-left: -250px;
+    }
 }
 @media only screen and (max-width: 600px){
     .my_name{
@@ -1270,6 +1466,68 @@ header{
     .project_img7:hover{ /*---ดักจับเหตุการณ์ ผู้ใช้งานวางเมาส์ไว้บน Elements---*/
         width: 350px;
         margin-left: -180px;
+    }
+    .performance-trainee-1{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .performance-trainee-2{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .performance-trainee-3{
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .performance-trainee-4{
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .performance-trainee-5{
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .container-5-3-R{
+        width: 180px;
+        height: 90%;
+    }
+    .project_img8{
+        width: 70px;
+        margin-left: 15px;
+    }
+    .project_img8:hover{ /*---ดักจับเหตุการณ์ ผู้ใช้งานวางเมาส์ไว้บน Elements---*/
+        width: 150px;
+        height: auto;
+        margin-left: -175px;
+    }
+    .project_img9{
+        margin-top: 40px;
+        margin-left: 98px;
+    }
+    .project_img9:hover{ /*---ดักจับเหตุการณ์ ผู้ใช้งานวางเมาส์ไว้บน Elements---*/
+        width: 150px;
+        height: auto;
+        margin-left: -175px;
+    }
+    .project_img10{
+        width: 100px;
+        margin-top: 130px;
+        margin-left: 50px;
+    }
+    .project_img10:hover{ /*---ดักจับเหตุการณ์ ผู้ใช้งานวางเมาส์ไว้บน Elements---*/
+        width: 340px;
+        height: auto;
+        margin-left: -175px;
+    }
+    .project_img11{
+        width: 80px;
+        margin-top: 205px;
+        margin-left: 40px;
+    }
+    .project_img11:hover{ /*---ดักจับเหตุการณ์ ผู้ใช้งานวางเมาส์ไว้บน Elements---*/
+        width: 340px;
+        height: auto;
+        margin-left: -175px;
     }
 }
 @media only screen and (max-width: 480px){
