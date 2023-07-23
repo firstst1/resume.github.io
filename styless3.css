@@ -917,6 +917,198 @@ header{
             /* border: 1px solid rgb(0, 255, 26); */
             border-radius: 40%;    /*---ขอบมน---*/
         }
+
+.container-7{
+    margin-top: 0px;
+    margin-left: 0px;
+    /* border: 1px solid rgb(255, 0, 0); */
+    display: block;
+    height: 744px;
+}
+    .container-7-1{
+        display: flex;
+        margin-top: 0px;
+        margin-left: 0px;
+        /* border: 1px solid rgb(0, 183, 255); */
+        width: 100%;
+        height: 15%;
+        color: #ff2f00; 
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+        justify-content: center;
+        align-items: flex-end;        /*----กึ่งกลางเเนวตั้ง----*/
+    }
+    .container-7-2{
+        display: flex;
+        margin-top: 0px;
+        margin-left: 0px;
+        /* border: 1px solid rgb(0, 183, 255); */
+        width: 100%;
+        height: 80%;
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+        justify-content: center;
+    }
+        .container-7-2-L{
+            display: flex; 
+            margin-top: 0px;
+            /* border: 1px solid rgb(0, 255, 38); */
+            width: 300px;
+            height: 100%;
+            justify-content: center;
+            align-items: center;        /*----กึ่งกลางเเนวตั้ง----*/
+        }
+            .my_img2{
+                width: 250px;
+                height: auto;
+                box-shadow: 10px -10px 25px 0px rgba(181, 181, 181, 0.308),-10px 10px 25px 0px rgba(72, 70, 69, 0.418);    /*---เงา---*/
+                border-radius: 3px;    /*---ขอบมน---*/
+            }
+        .container-7-2-R{
+            display: block; 
+            margin-top: 0px;
+            /* border: 1px solid rgb(0, 255, 38); */
+            width: 400px;
+            height: 100%;
+        }
+            .personal-1{
+                margin-top: 150px;
+                /* margin-left: 50px; */
+                font-size: 17px;
+                color: #dcdcdc;   /*---สีตัวอักษร---*/
+                /* border: 1px solid rgb(0, 68, 255); */
+            }
+            .personal-2{
+                margin-top: 15px;
+                /* margin-left: 50px; */
+                font-size: 17px;
+                color: #dcdcdc;   /*---สีตัวอักษร---*/
+                /* border: 1px solid rgb(0, 68, 255); */
+            }
+.container-8{
+    margin-top: 0px;
+    margin-left: 0px;
+    /* border: 1px solid rgb(255, 0, 0); */
+    background-color: #2d2c2c;
+    display: flex;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+    .container-8-L{
+        display: flex; 
+        margin-top: 6.5px;
+        margin-left: 0px; 
+        /* border: 1px solid rgb(0, 200, 255); */
+        width: 180px;
+        height: 100%;
+        justify-content: center;
+    }
+        .map_img{
+            width: 90px;
+            height: auto;
+            border-radius: 3px;    /*---ขอบมน---*/
+        }
+        .map_img:hover{ /*---ดักจับเหตุการณ์ ผู้ใช้งานวางเมาส์ไว้บน Elements---*/
+            transform: translate(0,-3px);   /*---ปุ่มเด้ง---*/
+            box-shadow: 10px -10px 25px 0px rgba(106, 182, 104, 0.611),-10px 10px 25px 0px rgba(157, 157, 155, 0.453);    /*---เงา---*/
+        }
+    .container-8-C{
+        display: block; 
+        margin-top: 0px;
+        margin-left: 0px; 
+        /* border: 1px solid rgb(0, 200, 255); */
+        width: 400px;
+        height: 100%;
+    }
+        .container-8-C-1{
+            display: flex; 
+            margin-top: 2.5px;
+            /* border: 1px solid rgb(0, 255, 38); */
+            width: 100%;
+            height: 23%;
+        }
+            .location_img{
+                margin-top: 3px;
+                width: auto;
+                height: 14px;
+                border-radius: 100px;    /*---ขอบมน---*/
+                /* border: 1px solid rgb(0, 68, 255); */
+            } 
+            .contact-1{
+                margin-top: 3px;
+                margin-left: 5px;
+                font-size: 11px;
+                height: 20px;
+                color: #dcdcdc;   /*---สีตัวอักษร---*/
+                /* border: 1px solid rgb(0, 68, 255); */
+            }
+            .call_img{
+                margin-top: 3px;
+                width: auto;
+                height: 14px;
+                border-radius: 100px;    /*---ขอบมน---*/
+                /* border: 1px solid rgb(0, 68, 255); */
+            }
+            .gmail_img{
+                margin-top: 3px;
+                width: auto;
+                height: 14px;
+                /* border: 1px solid rgb(0, 68, 255); */
+            }
+            .line_img{
+                margin-top: 3px;
+                width: auto;
+                height: 14px;
+                /* border: 1px solid rgb(0, 68, 255); */
+            }
+            .line_img:hover{ /*---ดักจับเหตุการณ์ ผู้ใช้งานวางเมาส์ไว้บน Elements---*/
+                transform: translate(0,-3px);   /*---ปุ่มเด้ง---*/
+                box-shadow: 10px -10px 25px 0px rgba(89, 214, 85, 0.611),-10px 10px 25px 0px rgba(157, 157, 155, 0.453);    /*---เงา---*/
+            }
+    .container-8-R{
+        display: flex; 
+        margin-top: 0px;
+        margin-left: 0px; 
+        /* border: 1px solid rgb(0, 200, 255); */
+        width: 350px;
+        height: 100%;
+        justify-content: center;
+    }
+        .btn-download{
+            margin-top: 20px;
+            /* border: 1px solid rgb(0, 255, 26); */
+            width: 170px;
+            height: 70%;
+            display: block;
+            list-style: none;
+        }
+            .btn-download-1{
+                background-color: rgb(0, 0, 0);
+                padding: 5px;  /*---ระยะห่างของกรอบกับตัวหนังสือด้านใน--*/
+                font-size: 12px;    /*---ขนาดตัวอักษร---*/
+                overflow: hidden;   /*---ซ่อนข้อความส่วนเกิน---*/
+                color: #a9a7a7;   /*---สีตัวอักษร---*/
+                border-radius: 15px;    /*---ขอบมน---*/       
+                text-decoration: none;  /*---เส้นใต้---*/
+                margin-left: -10px;
+            }
+            .btn-download-1:hover{ /*---ดักจับเหตุการณ์ ผู้ใช้งานวางเมาส์ไว้บน Elements---*/
+                box-shadow: 10px -10px 25px 0px rgba(111, 0, 255, 0.526),-10px 10px 25px 0px rgba(0, 191, 255, 0.515);    /*---เงา---*/
+            }
+            .btn-download-2{
+                background-color: rgb(0, 0, 0);
+                padding: 5px;  /*---ระยะห่างของกรอบกับตัวหนังสือด้านใน--*/
+                font-size: 12px;    /*---ขนาดตัวอักษร---*/
+                overflow: hidden;   /*---ซ่อนข้อความส่วนเกิน---*/
+                color: #a9a7a7;   /*---สีตัวอักษร---*/
+                border-radius: 15px;    /*---ขอบมน---*/       
+                text-decoration: none;  /*---เส้นใต้---*/
+                margin-left: -10px;
+            }
+            .btn-download-2:hover{ /*---ดักจับเหตุการณ์ ผู้ใช้งานวางเมาส์ไว้บน Elements---*/
+                box-shadow: 10px -10px 25px 0px rgba(111, 0, 255, 0.526),-10px 10px 25px 0px rgba(0, 191, 255, 0.515);    /*---เงา---*/
+
+            }
 /* --------------------------------------------------------------------------------------------------------------------- */
 /* --------------------------------------------------------------------------------------------------------------------- */
 /* --------------------------------------------------------------------------------------------------------------------- */
@@ -1006,6 +1198,9 @@ header{
     }
     .hi{
         margin-left: 35px;
+    }
+    .skill_img2{
+        height: 400px;
     }
 }
 @media only screen and (max-width: 992px){
@@ -1141,6 +1336,9 @@ header{
     .work-vocational-3{
         margin-left: 30px;
         font-size: 14px;
+    }
+    .container-5-1{
+        font-size: 27px;
     }
     .performance-bachelor-1{
         margin-left: 20px;
@@ -1289,9 +1487,52 @@ header{
         width: 380px;
         margin-left: -250px;
     }
+    .container-6-1{
+        font-size: 27px;
+    }
     .skill_img2{
         margin-top: 50px;
-        height: 400px;
+        height: 300px;
+    }
+    .container-7-1{
+        font-size: 27px;
+    }
+    .my_img2{
+        width: 200px;
+    }
+    .personal-1{
+        font-size: 14px;
+    }
+    .personal-2{
+        font-size: 14px;
+    }
+    .map_img{
+        margin-top: 17px;
+        width: 55px;
+    }
+    .location_img{
+        height: 12px;
+    } 
+    .contact-1{
+        font-size: 8px;
+    }
+    .call_img{
+        height: 12px;
+    }
+    .gmail_img{
+        height: 12px;
+    }
+    .line_img{
+        height: 12px;
+    }
+    .btn-download{
+        width: 100px;
+    }
+    .btn-download-1{
+        font-size: 8px;    /*---ขนาดตัวอักษร---*/
+    }
+    .btn-download-2{
+        font-size: 8px;    /*---ขนาดตัวอักษร---*/
     }
 }
 @media only screen and (max-width: 600px){
@@ -1407,6 +1648,9 @@ header{
     .work-vocational-3{
         margin-left: 20px;
         font-size: 12px;
+    }
+    .container-5-1{
+        font-size: 22px;
     }
     .performance-bachelor-1{
         margin-left: 10px;
@@ -1564,9 +1808,24 @@ header{
         height: auto;
         margin-left: -175px;
     }
+    .container-6-1{
+        font-size: 22px;
+    }
     .skill_img2{
         margin-top: 50px;
-        height: 250px;
+        height: 200px;
+    }
+    .container-7-1{
+        font-size: 22px;
+    }
+    .my_img2{
+        width: 150px;
+    }
+    .personal-1{
+        font-size: 10px;
+    }
+    .personal-2{
+        font-size: 10px;
     }
 }
 @media only screen and (max-width: 480px){
